@@ -12,13 +12,26 @@ help you get started with your SpringBoot and Cucumber journey.
 - JUnit 5.10.3
 
 ### Execute
-Use below command to run all the test
+To run all the tests
 ```
 mvn clean test
 ```
-Use below command to run specific scenario or feature
+To run all product tests
 ```
 mvn clean test -Dcucumber.filter.tags="@Product"
-mvn clean test -Dcucumber.filter.tags="@GetProduct" 
+```
+To run all add product tests
+```
+mvn clean test -Dcucumber.filter.tags="@AddProduct"
+```
+
+To run all negative test cases
+```
+mvn clean test -Dcucumber.filter.tags="@Negative"
+```
+
+To run all positive product test cases
+```
+mvn clean test -Dcucumber.filter.tags="@Product and not @Negative"
 ```
 
