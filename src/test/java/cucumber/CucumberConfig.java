@@ -1,4 +1,4 @@
-package product;
+package cucumber;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;

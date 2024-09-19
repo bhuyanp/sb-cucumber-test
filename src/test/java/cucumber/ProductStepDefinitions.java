@@ -1,4 +1,4 @@
-package product;
+package cucumber;
 
 import com.example.sbtest.Product;
 import com.example.sbtest.ProductService;
