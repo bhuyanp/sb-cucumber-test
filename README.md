@@ -18,7 +18,7 @@ mvn clean test
 ```
 Use below command to run specific scenario or feature
 ```
-mvn clean test -Dcucumber.filter.tags="@PRODUCT"
-mvn clean test -Dcucumber.filter.tags="@GET_PRODUCT" 
+mvn clean test -Dcucumber.filter.tags="@Product"
+mvn clean test -Dcucumber.filter.tags="@GetProduct" 
 ```
 
