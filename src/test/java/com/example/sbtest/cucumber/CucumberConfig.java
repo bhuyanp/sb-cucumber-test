@@ -1,4 +1,4 @@
-package cucumber;
+package com.example.sbtest.cucumber;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;

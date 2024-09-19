@@ -1,6 +1,5 @@
-package cucumber;
+package com.example.sbtest;
 
-import com.example.sbtest.SbCucumberApplication;
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
@@ -13,7 +12,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectPackages("cucumber")
+@SelectPackages("com.example.sbtest.cucumber")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
 @CucumberContextConfiguration
 @SpringBootTest(
